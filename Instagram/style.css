@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+   
+}
+
+.lado-direito{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.container-form{
+    align-items: center;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(219,219,219);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form img{
+    margin-top: 10px;
+    padding: 40px 0px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+    align-items: center;
+}
+
+.login input{
+    width: 270px;
+    height: 40px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
+    padding: 0px 7px;
+    margin-bottom: 7px;
+}
+
+.login button{
+    margin-top: 7px;
+    width: 270px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: #4cb5f9;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.login p{
+    color: rgb(124, 123, 123);
+}
+
+.facebook{
+    width: 350px;
+    height: 120px;
+    display: flex;
+}
+
+.login a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login img{
+    margin: 5px 7px;
+}
+
+.novo-cadastro{
+    margin-top: 10px;
+    width: 350px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(219,219,219);
+    
+}
+
+.novo-cadastro a{
+    text-decoration: none;
+    color: #2c9eeb;
+    font-weight: 700;
+}
+
+.obtenha-app{
+    margin-top: 10px;
+    width: 350px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.baixar-app img{
+    height: 40px;
+}
+
+.dados{
+    background-color: white;
+    color: rgb(65, 64, 64);
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+li{
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 5px 7px;
+    font-size: 12px; 
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
