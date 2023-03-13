@@ -9,6 +9,12 @@ body{
    
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lado-direito{
     display: flex;
     justify-content: center;
@@ -19,6 +25,7 @@ body{
 }
 
 .container-form{
+    margin-top: 45px;
     align-items: center;
     background-color: rgb(255,255,255);
     border: 1px solid rgb(219,219,219);
@@ -27,6 +34,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
 
 .container-form img{
     margin-top: 10px;
@@ -61,17 +74,13 @@ body{
     color: white;
     font-weight: 700;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .login p{
     color: rgb(124, 123, 123);
 }
 
-.facebook{
-    width: 350px;
-    height: 120px;
-    display: flex;
-}
 
 .login a{
     display: flex;
@@ -82,7 +91,9 @@ body{
     align-items: center;
     height: 40px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #044169;
 }
 
 .login img{
@@ -97,13 +108,14 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(219,219,219);
-    
+    font-size: 14px;
 }
 
 .novo-cadastro a{
     text-decoration: none;
     color: #2c9eeb;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .obtenha-app{
@@ -114,6 +126,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-size: 14px;
 }
 
 .baixar-app img{
@@ -145,4 +158,24 @@ li{
 li:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.lado-esquerdo{
+    background-image: url("img/tel.png");
+    width: 455px;
+    height: 600px;
+    position: relative;
+    margin-top: 40px;
+   
+}
+
+.slider{
+    padding: 26px 155px;
+    display: flex;
+    perspective: 1000px;
+    transition: transform 1.5s;
+}
+
+.slider img{
+    position: absolute;
 }
